@@ -1,6 +1,8 @@
 # Streamers
 An application for video streaming using Google OAuth (client side) and Redux using the latest features of React 16.8
 
+![Dune](https://media.aintitcool.com/media/uploads/2018/precious_roy/dune_large.jpg)
+
 ## Featured
 * React 16.8
 * React Router
