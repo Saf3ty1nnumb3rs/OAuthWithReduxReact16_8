@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { signIn, signOut } from '../actions';
 
 class GoogleAuth extends Component {
 
@@ -67,4 +70,4 @@ class GoogleAuth extends Component {
   }
 }
 
-export default GoogleAuth;
+export default connect(null, { signIn, signOut })(GoogleAuth);
